@@ -1,0 +1,140 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.bg{
+	background-color: #f31850;
+}
+.bg1{
+
+	background-color: #202c46;
+	border-bottom: 4px solid #f31850;
+}
+.bg2{
+	background-image: url(banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.over{
+	margin-top: -45px;
+}
+.bg3{
+	background-image: url(teaching1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.bg4{
+	margin-top: 20px;
+	background-image: url(testimonial.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.test{
+
+}
+.box{
+	margin:-16px 0 10px -16px;
+    width: 285px;
+    height: 85px;
+    background-color: #f31850;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 400px;
+    border: 1px solid #f31850;
+    border-top: 0;
+}
+.img{
+	padding:20px 20px 40px 5px;
+}
+
+.img1{
+	margin-left: 90px;
+	padding: 10px;
+}
+
+.img2{
+	padding: 20px 20px 30px 10px;
+}
+
+.img3{
+	padding: 20px;
+}
+.offer{
+	margin: -11px 0px -11px 0px;
+}
+@media (max-width: 550px) and (min-width: 480px){
+	.box{width: 410px;
+		margin-right: -20px;
+
+	}
+	.img{
+		margin-left: 113px;
+	}
+	.img1{
+		
+		padding-bottom: 20px;
+		margin-left: 110px;
+	}
+	.img2{
+		margin-left: 110px;
+	}
+	.img3{
+		margin-left: 105px;
+	}
+	.bg4{
+		text-align: center;
+	}
+
+}
+@media (max-width: 800px) and (min-width: 550px){
+	.box{width: 135px;
+		margin-right: -20px;
+
+	}
+	.img{
+		margin-left: 20px;
+
+	}
+	.img1{
+		margin-left: 20px;
+	}
+	.img2{
+		margin-left: 20px;
+	}
+	.img3{
+		margin-left: 15px;
+	}
+	.test{
+		padding-top: 140px;
+		margin-left: -120px;
+	}
+
+
+}
+@media (max-width: 1000px) and (min-width: 800px){
+	.box{width:180px;
+		margin-right: -20px;
+
+	}
+	.img{
+		margin-left: 113px;
+	}
+	.img1{
+		
+		padding-bottom: 20px;
+		margin-left: 110px;
+	}
+	.img2{
+		margin-left: 110px;
+	}
+	.img3{
+		margin-left: 105px;
+	}
+		.test{
+		padding-top: 140px;
+		margin-left: -120px;
+	}
+
+
+
+}
